@@ -25,8 +25,8 @@ export default function App() {
   }, []);
 
   return (
-    <div className="flex flex-col bg-white">
-      <h1 className="text-black text-center text-5xl my-4 font-bold font-serif">Rick And Morty</h1>
+    <div className="flex flex-col bg-white bg-slate-50 dark:bg-slate-900">
+      <h1 className="text-black text-center text-5xl my-4 font-bold font-serif dark:text-white">Rick And Morty</h1>
       <div className="flex flex-row flex-wrap justify-center">
         {data.map((rickandmorty) => (
           <CardSection
